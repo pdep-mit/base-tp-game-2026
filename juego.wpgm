@@ -1,0 +1,10 @@
+import wollok.game.*
+
+program NombreDeJuego {
+	// TODO: Cambiar esto por lo que necesiten
+	game.title("Grupo: ... | Nombre de jueguito")
+	game.height(10)
+	game.width(10)
+
+	game.start()
+}
