@@ -1,10 +1,10 @@
 // Archivo de tests de referencia, borrar luego de desarrollar propios
-import example.pepita
+import example.*
 
-describe "group of tests for pepita" {
+describe "groupo de tests" {
 
-  test "pepita has initial energy" {
-    assert.equals(100, pepita.energy())
+  test "Payer comeinza en el centro del tabler" {
+    assert.equals(game.center(), player.position())
   }
 
 }
